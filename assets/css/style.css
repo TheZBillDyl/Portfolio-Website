@@ -88,13 +88,15 @@ th, td {
   background-color: #023e8aff;
   border: 3px solid #00b4d8ff;
   padding: 0.3%;
-  margin: 5%;
   font-size: 30px;
   font-family: 'Architects Daughter', cursive;
   text-align: center;
   color: #caf0f8ff;
 }
 
+.grid-space{
+  margin: 2%;
+}
 .grid-item:hover{
   animation: bounce 0.1s  forwards linear;
 }

@@ -20,6 +20,16 @@ div.sticky {
   z-index: 1;
   }
 
+  tr td{
+    width: 150px;
+    text-align: center;
+  }
+
+  .programIcon{
+    width: 60%;
+    height: 60%;
+  }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -61,12 +71,8 @@ li a{
 .rounded{
   border-radius: 10px;
 }
-table {
-  background-color: #90e0efff;
-}
-th, td {
-  border: 80px solid #023e8aff;
-  padding: 40px;
+.roundedExtreme{
+  border-radius: 50px;
 }
 .center {
   margin-left: auto;
@@ -112,6 +118,46 @@ th, td {
 .label {
   float: left;
   padding-left: 5%;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  text-decoration: none;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  text-decoration: none;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }
 
 /*

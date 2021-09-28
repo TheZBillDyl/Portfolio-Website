@@ -140,7 +140,7 @@ li a{
   left: 50%;
   margin-left: -60px;
   opacity: 0;
-  transition: opacity 0.3s;
+  transition: opacity 0.6s;
 }
 
 .tooltip .tooltiptext::after {
@@ -171,12 +171,4 @@ li a{
 --sky-blue-crayola-2: #90e0efff;
 --blizzard-blue: #ade8f4ff;
 --powder-blue: #caf0f8ff;
-*/
-
-/*
---carmine: #911616ff;
---international-orange-golden-gate-bridge: #bd2424ff;
---oxford-blue: #0a152bff;
---rich-black-fogra-39: #090a06ff;
---royal-blue-dark: #021b4fff;
 */

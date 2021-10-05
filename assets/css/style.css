@@ -173,6 +173,7 @@ th {
   position: relative;
   display: inline-block;
   text-decoration: none;
+  
 }
 .dropDown .dropDowntext{
   width: 100%;
@@ -185,7 +186,7 @@ th {
   border-radius: 6px;
   padding: 5px 0;
   position: absolute;
-  z-index: 0;
+  z-index: 2;
   left: 18.5%;
   margin-left: -60px;
 

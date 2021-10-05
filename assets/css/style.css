@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 p, h1, h2, h3, h4, h5, a, th {
   color: #CAF0F8;
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Balsamiq Sans', cursive;
 }
 p{
   font-size: 20px;
@@ -13,7 +13,7 @@ body{
   background-color: #caf0f8;
 }
 h2{
-  font-size: 28px;
+  font-size: 25.5px;
 }
 div.sticky {
   position: -webkit-sticky; /* Safari */
@@ -54,9 +54,9 @@ li a:hover {
   color: #CAF0F8;
 }
 li a{
-  padding: 28px 25px;
+  padding: 26px 27px;
   float: left;
-  font-size: 21.5px;
+  font-size: 25.5px;
   text-align: center;
   text-decoration: none;
   color: #CAF0F8;
@@ -127,7 +127,7 @@ li a{
 }
 
 .tooltip .tooltiptext {
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Balsamiq Sans', cursive;
   width: 120px;
   text-decoration: none;
   background-color: #023e8aff;
